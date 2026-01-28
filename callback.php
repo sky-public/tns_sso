@@ -236,7 +236,7 @@ try {
     }
 
     // Now authenticate with TANSS by POST to login endpoint
-    $login_url = 'https://portal.skysystems.it/index.php?section=login';
+	$login_url = $tanss_config['api_url'].'/index.php?section=login';
 
     $login_payload = [
         'username' => $tanss_identifier,
