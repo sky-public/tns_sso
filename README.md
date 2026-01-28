@@ -16,7 +16,7 @@ Dafür in einer vorhandenen .js Datei im ajax-Ordner die Datei via script nachla
 
 
 
-
+```javascript
 // Dynamically load the sso-inject.js script only on login page
 
 (function() {
@@ -43,3 +43,4 @@ Dafür in einer vorhandenen .js Datei im ajax-Ordner die Datei via script nachla
        document.head.appendChild(script);
    }
 })();
+```
